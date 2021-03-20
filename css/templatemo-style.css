@@ -187,6 +187,7 @@ http://www.templatemo.com/tm-509-hydro
     border: 1px solid #575757;
     border-top-color: #ffffff;
     animation: spinner .9s linear infinite;
+    
   }
 
   @-webkit-@keyframes spinner {
@@ -319,7 +320,7 @@ http://www.templatemo.com/tm-509-hydro
   -----------------------------------------*/
 
   #home {
-    background: url('../images/IMG_1865.jpg') no-repeat center center;
+    background: url('../images/cesis_dana_background.png') no-repeat center center;
     background-size: cover;
     vertical-align: middle;
     display: -webkit-box;
@@ -367,6 +368,19 @@ http://www.templatemo.com/tm-509-hydro
     margin-top: 150px;
   }
 
+ .home-info  .home-subinfo{
+    display: inline-block;
+    vertical-align: bottom;
+    color: #f9f9f9;
+    margin-left: 20px;
+    margin-top: 150px;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 0px;
+    font-size: 1.6em;
+
+  }
+  
   .home-info span small {
     display: block;
   }
