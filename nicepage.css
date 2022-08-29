@@ -361,6 +361,9 @@ span.fr-img-caption.fr-view {
       margin: 5px 0 5px 5px;
       max-width: calc(100% - 5px); }
 /*end-commonstyles library*/@charset "UTF-8";
+.u-hidden-block {
+  visibility: hidden!important;
+}
 .u-locked-block {
   pointer-events: none!important;
 }
@@ -1890,7 +1893,7 @@ a {
   width: 100%;
   text-align: center;
   color: #fff;
-  padding: 20px 0px 20px 0px;
+  padding: 20px;
   border: none;
 }
 .u-form .u-form-group.u-form-checkbox,
@@ -1924,6 +1927,12 @@ a {
 .u-form .u-form-vertical .u-form-group.u-form-checkbox,
 .u-form .u-form-vertical .u-form-group.u-form-agree {
   align-items: baseline;
+}
+.u-form .u-form-send-message-close {
+  color: white;
+  position: absolute;
+  right: 8px;
+  top: 0;
 }
 .u-form-send-message {
   z-index: 1;
@@ -37886,6 +37895,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 700;
   font-size: 1rem;
   text-transform: none;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -37902,10 +37912,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-left: 918px;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
   }
 
   .u-header .u-text-1 {
@@ -37934,13 +37940,19 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 95px;
+  }
+
   .u-header .u-menu-1 {
-    margin-left: 325px;
+    margin-top: 32px;
+    margin-right: -12px;
+    margin-left: auto;
   }
 
   .u-header .u-text-1 {
-    margin-right: 9px;
-    margin-left: -9px;
+    width: auto;
+    margin: -41px 25px 23px -25px;
   }
 }
  .u-footer {
